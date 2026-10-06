@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gowtham D - Mechatronics Engineer Portfolio with CAD, SolidWorks, and Automation expertise.">
+  <title>Gowtham D | Mechatronics Engineer</title>
+
+  <!-- Google Fonts & Font Awesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <div class="scroll-progress-bar"></div>
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline"></div>
+  <div id="mouse-spotlight"></div>
+
+  <div class="glow-bg glow-1"></div>
+  <div class="glow-bg glow-2"></div>
+
+  <!-- Floating Social Links -->
+  <div class="social-float">
+    <a href="https://www.linkedin.com/in/gowtham-dhanasekaran" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+    <a href="mailto:gowthamd2006@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+    <a href="tel:+919487517657" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+    <a href="https://github.com/gowthamd22" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+    <a href="https://leetcode.com/u/D_Gowtham/" target="_blank" aria-label="LeetCode">
+      <img src="https://cdn.simpleicons.org/leetcode" alt="LeetCode" width="20" height="20">
+    </a>
+  </div>
+
+  <nav>
+    <a href="index.html" class="logo">Gowtham D</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h2>Welcome to my digital space</h2>
+          <h1>I'm Gowtham D</h1>
+          <p>Specialized in <span class="typed-text"></span></p>
+          <div class="hero-badges">
+            <a href="https://kongu.ac.in/" class="badge-link" target="_blank" rel="noopener noreferrer">
+              <span class="badge">
+                <i class="fa-solid fa-graduation-cap"></i>
+                Kongu Engineering College
+              </span>
+            </a>
+            <span class="badge"><i class="fa-solid fa-award"></i> CSWA Certified</span>
+            <span class="badge"><i class="fa-solid fa-certificate"></i> AutoCAD Certified</span>
+          </div>
+          <div class="cta-buttons">
+            <a href="contact.html" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Get In Touch</a>
+            <a href="assets/resume.pdf" class="btn btn-secondary" target="_blank"><i class="fa-solid fa-download"></i> Download Resume</a>
+          </div>
+        </div>
+        <div class="hero-img-container">
+          <div class="profile-card">
+            <img src="assets/photo/photo.jpg" alt="Gowtham D Profile Photo">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Animated Counters Section -->
+    <section id="stats-section">
+      <div class="container grid-3" data-aos="fade-up">
+        <div class="card counter-box">
+          <div class="counter-number" data-target="3">0</div>
+          <p style="color: var(--text-sub); font-weight: 600;">Innovative Projects</p>
+        </div>
+        <div class="card counter-box">
+          <div class="counter-number" data-target="2">0</div>
+          <p style="color: var(--text-sub); font-weight: 600;">Industry Certifications</p>
+        </div>
+        <div class="card counter-box">
+          <div class="counter-number" data-target="2">0</div>
+          <p style="color: var(--text-sub); font-weight: 600;">State-Level Awards</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button id="backToTop" aria-label="Back to Top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <footer>
+    <p>© 2026 Gowtham D. Designed with passion for Mechatronics & Design.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <script src="js/particles.js"></script>
+  <script src="js/script.js"></script>
+
+  <script>
+    // Typed.js Animation Initialization
+    new Typed('.typed-text', {
+      strings: [
+        'Mechatronics Engineering',
+        '3D CAD Modeling (SolidWorks)',
+        'Automation & Embedded Systems',
+        'Mechanical Hardware Design'
+      ],
+      typeSpeed: 50,
+      backSpeed: 30,
+      backDelay: 1500,
+      loop: true
+    });
+  </script>
+</body>
+</html>
